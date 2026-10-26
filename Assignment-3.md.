@@ -1,0 +1,79 @@
+Assignment 3 – Terminal Navigation Practice Sheet
+
+Objective
+
+To learn basic terminal commands used for folder navigation, file management, and web development.
+
+1. Basic Terminal Commands
+
+No.| Task| macOS / Linux / Git Bash| PowerShell
+1| Show current folder| "pwd"| "pwd"
+2| List files| "ls"| "ls"
+3| Show hidden files and details| "ls -la"| "ls -Force"
+4| Create a folder| "mkdir practice"| "mkdir practice"
+5| Enter a folder| "cd practice"| "cd practice"
+6| Create an empty file| "touch index.html"| "ni index.html"
+7| Create nested folders| "mkdir -p css/images"| "mkdir css/images"
+8| Go up one level| "cd .."| "cd .."
+9| Go to home directory| "cd ~"| "cd ~"
+10| Copy a file| "cp index.html backup.html"| "cp index.html backup.html"
+11| Rename or move a file| "mv backup.html old.html"| "mv backup.html old.html"
+12| Delete a file| "rm old.html"| "rm old.html"
+13| Delete a folder| "rm -r css"| "rm -r css"
+14| Display file contents| "cat index.html"| "cat index.html"
+15| Clear the terminal| "clear"| "cls"
+16| Open folder in VS Code| "code ."| "code ."
+
+2. Practice Exercise
+
+Task: Starting from the home directory, create a website folder containing "index.html", "css/style.css", and an "images" folder.
+
+Commands Used
+
+Step 1: Go to the home directory
+
+cd ~
+
+Step 2: Create the folders
+
+mkdir -p website/css website/images
+
+Step 3: Create the files
+
+touch website/index.html website/css/style.css
+
+Step 4: Enter the CSS folder
+
+cd website/css
+
+Step 5: Return to the website folder
+
+cd ..
+
+Step 6: List all files and folders recursively
+
+ls -R
+
+Step 7: Rename index.html to home.html
+
+mv index.html home.html
+
+Step 8: Rename home.html back to index.html
+
+mv home.html index.html
+
+Step 9: Open the folder in VS Code
+
+code .
+
+3. Expected Folder Structure
+
+website/
+├── index.html
+├── css/
+│   └── style.css
+└── images/
+
+Conclusion
+
+This practice sheet covers essential terminal commands for navigating directories, creating files and folders, copying, renaming, deleting, and opening a web development project in VS Code.
