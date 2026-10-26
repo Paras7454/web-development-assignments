@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Introduction - HTML Assignment">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi, I'm Paras - Personal Introduction</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hi, I'm Paras Srivastava 👋</h1>
+        <p><em>BCA AI Student · Web Development Learner · Tech Enthusiast</em></p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I am a BCA Artificial Intelligence student at Invertis University.
+                I am interested in web development and technology.
+                Currently, I am learning HTML, CSS, and Java.
+            </p>
+        </section>
+
+        <section>
+            <h2>Quick Facts</h2>
+            <ul>
+                <li><strong>Course:</strong> BCA (Artificial Intelligence)</li>
+                <li><strong>City:</strong> Ujhani, India</li>
+                <li><strong>Languages:</strong> Hindi, English</li>
+                <li><strong>Interests:</strong> Coding, Web Development, AI</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>My Goals</h2>
+            <ol>
+                <li>Improve my HTML and CSS skills.</li>
+                <li>Learn Java and Data Structures.</li>
+                <li>Build and publish my own websites.</li>
+                <li>Become a Software or Web Developer.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>
+                Email me at
+                <a href="mailto:parassrivastava1995@gmail.com">
+                    parassrivastava1995@gmail.com
+                </a>.
+            </p>
+            <p>
+                GitHub:
+                <a href="https://github.com/Paras7454">
+                    Visit my GitHub profile
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Paras Srivastava</p>
+    </footer>
+
+</body>
+</html>
