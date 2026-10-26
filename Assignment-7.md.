@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume - Paras Srivastava">
+    <title>Resume - Paras Srivastava</title>
+</head>
+<body>
+
+    <h1>Paras Srivastava</h1>
+
+    <p>
+        Aspiring Web Developer<br>
+        Ujhani, Uttar Pradesh, India<br>
+        Email: parassrivastava1995@gmail.com
+    </p>
+
+    <hr>
+
+    <h2>Objective</h2>
+    <p>
+        Motivated BCA Artificial Intelligence student seeking an
+        opportunity to learn and grow in web development.
+        Interested in applying my knowledge of HTML, CSS and Java.
+    </p>
+
+    <hr>
+
+    <h2>Education</h2>
+
+    <h3>Bachelor of Computer Applications (Artificial Intelligence)</h3>
+    <p>Invertis University, 2026 - 2029</p>
+
+    <h3>Senior Secondary (XII)</h3>
+    <p>Tithonus International School, 2026<br>
+    Percentage: 65.4%</p>
+
+    <h3>Secondary (X)</h3>
+    <p>Tithonus International School, 2024<br>
+    Percentage: 75.4%</p>
+
+    <hr>
+
+    <h2>Skills</h2>
+    <p>
+        HTML, CSS, Java (Currently Learning), MS Office
+    </p>
+
+    <hr>
+
+    <h2>Projects</h2>
+    <p>
+        Currently learning HTML and CSS and practising
+        basic web development assignments.
+    </p>
+
+    <hr>
+
+    <h2>Certifications</h2>
+    <p>ADCA</p>
+    <p>Fluent Edge Wexl - English Learning Certificates</p>
+
+    <hr>
+
+    <h2>Achievements and Activities</h2>
+    <p>House Captain at school</p>
+    <p>Participated in school sports activities</p>
+
+    <hr>
+
+    <h2>Declaration</h2>
+    <p>
+        <small>
+            I hereby declare that the above information is true
+            to the best of my knowledge.
+        </small>
+    </p>
+
+</body>
+</html>
