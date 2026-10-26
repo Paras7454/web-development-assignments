@@ -1,0 +1,78 @@
+Assignment 4 – Repository with at Least Three Meaningful Commits
+
+Objective
+
+To understand Git repository creation, version control, and the importance of meaningful commit messages.
+
+1. Git Identity Setup
+
+Before making commits, configure the Git username and email.
+
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+Replace the example values with your own Git name and email.
+
+2. Create a Repository
+
+mkdir html-css-assignments
+cd html-css-assignments
+git init
+git branch -M main
+
+These commands create a project folder, initialize a Git repository, and set the main branch.
+
+3. Commit 1 – Add README
+
+echo "# HTML & CSS Assignments" > README.md
+git add README.md
+git commit -m "docs: add README with project overview"
+
+Purpose: Add an introductory README file to the repository.
+
+4. Commit 2 – Add Setup and Git Assignments
+
+git add 01-*.md 02-*.md 03-*.md 04-*.md 05-*.md
+git commit -m "docs: add setup and git assignments (1-5)"
+
+Purpose: Add the documentation files for the first five assignments.
+
+5. Commit 3 – Add HTML Basics
+
+git add 06-*.html 07-*.html 08-*.html 09-*.html 10-*.html
+git commit -m "feat: add HTML basics assignments (6-10)"
+
+Purpose: Track the HTML assignment files in Git.
+
+Note: These commands assume the corresponding files already exist in the repository. The file patterns may need to be adjusted to match the actual filenames.
+
+6. Verify Commit History
+
+git log --oneline
+
+This command displays the commit history in a concise format.
+
+7. Good Commit Message Rules
+
+1. Use clear, action-oriented wording.
+2. Add a type prefix such as "feat:", "fix:", "docs:", or "style:".
+3. Keep each commit focused on one logical change.
+4. Describe the change accurately.
+
+8. Suggested Commit History for the Course
+
+Commit| Message
+1| "docs: add README"
+2| "docs: setup and git assignments (1-5)"
+3| "feat: add HTML basics (6-10)"
+4| "feat: add links, images, and lists (11-15)"
+5| "feat: add forms, tables, and metadata (16-20)"
+6| "style: add CSS fundamentals (21-25)"
+7| "style: add box model and positioning (26-30)"
+8| "feat: add flexbox layouts (31-35)"
+9| "feat: add grid layouts (36-40)"
+10| "feat: add responsive landing page (41-45)"
+
+Conclusion
+
+Git helps developers track project changes and maintain a clear history of their work. Meaningful commits make projects easier to understand, review, and maintain.
