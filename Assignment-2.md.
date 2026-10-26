@@ -1,0 +1,38 @@
+Assignment 2 – Setup Proof (VS Code, Node.js, Live Server)
+
+Objective
+
+To understand the basic setup required for web development using Visual Studio Code, Node.js, and the Live Server extension.
+
+Tools Required
+
+1. Visual Studio Code (VS Code)
+
+Visual Studio Code is a code editor used to write and edit HTML, CSS, and JavaScript files.
+
+2. Node.js
+
+Node.js allows JavaScript to run outside the browser. Its installation can be verified using the following commands in the terminal:
+
+node -v
+npm -v
+
+3. Live Server
+
+Live Server is a VS Code extension that launches a local development server and displays HTML pages in a browser.
+
+Setup Verification
+
+Tool| Verification
+VS Code| Editor setup to be verified
+Node.js| Check using "node -v"
+npm| Check using "npm -v"
+Live Server| Install and test in VS Code
+
+Screenshot Proof
+
+The actual setup screenshot will be added after verifying the tools on a computer.
+
+Conclusion
+
+VS Code, Node.js, and Live Server are useful tools for web development. They help developers write code, run development tools, and preview web pages locally.
