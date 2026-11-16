@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Portfolio with Accessible Images – Paras Srivastava – HTML &amp; CSS course assignment">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio with Accessible Images</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Paras Srivastava – Portfolio</h1>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Profile</h2>
+      <img src="https://picsum.photos/id/1005/300/300"
+           width="150"
+           height="150"
+           alt="Profile picture representing Paras, a BCA Artificial Intelligence student">
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <figure>
+        <img src="https://picsum.photos/id/180/400/250"
+             width="400"
+             height="250"
+             alt="Screenshot representing a resume website with a name header and skills list">
+        <figcaption>Resume Website</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://picsum.photos/id/119/400/250"
+             width="400"
+             height="250"
+             alt="Screenshot representing a student registration form with name, email and course fields">
+        <figcaption>Registration Form</figcaption>
+      </figure>
+
+    </section>
+
+    <section>
+      <h2>Decorative Image</h2>
+
+      <!-- Decorative images use empty alt text -->
+      <img src="https://picsum.photos/id/1015/600/80"
+           width="600"
+           height="80"
+           alt="">
+    </section>
+
+    <section>
+      <h2>Linked Image</h2>
+
+      <a href="https://github.com/Paras7454">
+        <img src="https://picsum.photos/id/60/120/120"
+             width="60"
+             height="60"
+             alt="Visit Paras's GitHub profile">
+      </a>
+    </section>
+
+  </main>
+
+  <!--
+  ALT TEXT CHECKLIST
+  ✔ Describe what the image shows and why it matters.
+  ✔ Don't start with "image of".
+  ✔ Linked images describe the link destination.
+  ✔ Decorative images use alt="".
+  -->
+
+  <footer>
+    <p>&copy; 2026 Paras Srivastava</p>
+  </footer>
+
+</body>
+</html>
