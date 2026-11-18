@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Paras Srivastava's personal blog and portfolio.">
+  <title>Paras's Blog &amp; Portfolio</title>
+</head>
+
+<body id="top">
+
+  <header>
+    <h1>Paras's Blog &amp; Portfolio</h1>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+
+      <img src="https://picsum.photos/id/1005/200/200"
+           width="120"
+           height="120"
+           alt="Portrait representing Paras">
+
+      <p>
+        Hello! I am Paras, a BCA Artificial Intelligence student
+        who is learning programming and web development.
+      </p>
+    </section>
+
+    <section id="blog">
+      <h2>Latest Posts</h2>
+
+      <article>
+        <h3>Why Semantic HTML Matters</h3>
+        <p>
+          <time datetime="2026-09-10">10 Sep 2026</time> · 3 min read
+        </p>
+
+        <p>
+          Semantic tags like <code>&lt;main&gt;</code> and
+          <code>&lt;nav&gt;</code> help screen readers and search
+          engines understand your page.
+        </p>
+      </article>
+
+      <article>
+        <h3>My First Git Commit</h3>
+        <p>
+          <time datetime="2026-09-18">18 Sep 2026</time> · 2 min read
+        </p>
+
+        <p>
+          Git felt scary until I realised it is just a save-game
+          system for code.
+        </p>
+
+        <blockquote>
+          "Commit early, commit often."
+        </blockquote>
+      </article>
+
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+
+      <ul>
+        <li><a href="08-resume-semantic.html">Semantic Resume</a></li>
+        <li><a href="13-my-college-course.html">College &amp; Course Page</a></li>
+        <li><a href="12-images-with-alt.html">Accessible Image Gallery</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <p>
+        <a href="mailto:your-email@example.com">
+          your-email@example.com
+        </a>
+      </p>
+
+      <p>
+        <a href="https://github.com/Paras7454">
+          GitHub Profile
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><a href="#top">Back to top ↑</a></p>
+
+    <p>
+      <small>&copy; 2026 Paras Srivastava</small>
+    </p>
+  </footer>
+
+</body>
+
+</html>
