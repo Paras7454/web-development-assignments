@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Multi-page HTML project: Home, About, Registration and Contact.">
+  <meta name="author" content="Paras Srivastava">
+  <title>Multi-Page Project – Home</title>
+
+  <!-- Pure HTML "pages": each <section class="page"> acts as a page.
+       Using :target we show only the page whose link was clicked. -->
+  <style>
+    .page {
+      display: none;
+    }
+
+    .page:target,
+    body:not(:has(.page:target)) #home {
+      display: block;
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Paras's Website</h1>
+
+    <nav aria-label="Main">
+      <a href="#home">Home</a> |
+      <a href="#about">About</a> |
+      <a href="#registration">Registration</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME PAGE -->
+    <section id="home" class="page">
+      <h2>Home</h2>
+
+      <p>
+        Welcome! This site combines everything from the first four weeks:
+        headings, lists, images, links, forms and tables.
+      </p>
+
+      <img src="https://picsum.photos/id/1018/600/260"
+        width="600"
+        height="260"
+        style="max-width:100%;height:auto"
+        alt="Mountain landscape at sunrise">
+
+      <h3>What You Can Do Here</h3>
+
+      <ul>
+        <li>Read <a href="#about">about me</a></li>
+        <li><a href="#registration">Register</a> for the workshop</li>
+        <li>Send a message via the <a href="#contact">contact page</a></li>
+      </ul>
+    </section>
+
+    <!-- ABOUT PAGE -->
+    <section id="about" class="page">
+      <h2>About</h2>
+
+      <p>
+        I am a BCA Artificial Intelligence student learning
+        programming and front-end development.
+      </p>
+
+      <table border="1" cellpadding="6">
+        <caption>Quick Facts</caption>
+
+        <tr>
+          <th scope="row">City</th>
+          <td>Bareilly</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Course</th>
+          <td>BCA Artificial Intelligence</td>
+        </tr>
+
+        <tr>
+          <th scope="row">University</th>
+          <td>Invertis University</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Interests</th>
+          <td>Web Development, AI, Programming</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- REGISTRATION PAGE -->
+    <section id="registration" class="page">
+      <h2>Workshop Registration</h2>
+
+      <form action="#" method="post">
+
+        <p>
+          <label>
+            Name
+            <input type="text" name="name" required>
+          </label>
+        </p>
+
+        <p>
+          <label>
+            Email
+            <input type="email" name="email" required>
+          </label>
+        </p>
+
+        <p>
+          <label>
+            Date of birth
+            <input type="date" name="dob">
+          </label>
+        </p>
+
+        <p>
+          <label>
+            Level
+            <select name="level">
+              <option>Beginner</option>
+              <option>Intermediate</option>
+            </select>
+          </label>
+        </p>
+
+        <button type="submit">Register</button>
+
+      </form>
+    </section>
+
+    <!-- CONTACT PAGE -->
+    <section id="contact" class="page">
+      <h2>Contact</h2>
+
+      <form action="mailto:your-email@example.com"
+        method="post"
+        enctype="text/plain">
+
+        <p>
+          <label>
+            Your name
+            <input type="text" name="n" required>
+          </label>
+        </p>
+
+        <p>
+          <label>
+            Message
+            <br>
+            <textarea name="m" rows="5" cols="40" required></textarea>
+          </label>
+        </p>
+
+        <button type="submit">Send</button>
+
+      </form>
+
+      <address>
+        Email:
+        <a href="mailto:your-email@example.com">
+          your-email@example.com
+        </a>
+      </address>
+    </section>
+
+  </main>
+
+  <footer>
+    <hr>
+
+    <p>
+      <small>
+        &copy; 2026 Paras Srivastava ·
+        <a href="#home">Back to Home</a>
+      </small>
+    </p>
+
+    <p>
+      BCA Artificial Intelligence – 1st Semester
+      <br>
+      Invertis University, Bareilly
+    </p>
+  </footer>
+
+</body>
+
+</html>
