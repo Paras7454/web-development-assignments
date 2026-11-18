@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Semantic Improvement of the College Page – HTML &amp; CSS course assignment">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Improvement of the College Page</title>
+</head>
+
+<body>
+
+  <!--
+  BEFORE (Assignment 13 using generic divs):
+    <div class="top"> <div class="title">…</div> </div>
+    <div class="menu"> … </div>
+    <div class="content"> <div class="box"> … </div> </div>
+    <div class="bottom"> … </div>
+
+  AFTER (this file) – every div replaced by a tag that describes its purpose:
+    div.top → <header>   div.menu → <nav>   div.content → <main>
+    div.box → <section>/<article>   div.bottom → <footer>
+    bold text → <strong>   dates → <time>   side info → <aside>
+
+  Benefits: better accessibility, SEO and easier maintenance.
+  -->
+
+  <header>
+    <h1>Invertis University</h1>
+
+    <nav aria-label="Page sections">
+      <a href="#college">College</a> |
+      <a href="#course">Course</a> |
+      <a href="#news">News</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <article id="college">
+      <h2>About the College</h2>
+
+      <p>
+        Founded in <time datetime="1998">1998</time>,
+        Invertis University is known for its academic excellence
+        and educational opportunities.
+      </p>
+
+      <figure>
+        <img src="https://picsum.photos/id/1067/500/260"
+             width="500"
+             height="260"
+             alt="University campus building surrounded by trees">
+        <figcaption>University Campus</figcaption>
+      </figure>
+    </article>
+
+    <article id="course">
+      <h2>BCA Artificial Intelligence</h2>
+
+      <section>
+        <h3>Duration</h3>
+        <p>3 years (6 semesters)</p>
+      </section>
+
+      <section>
+        <h3>Subjects</h3>
+        <ul>
+          <li>Programming in Java</li>
+          <li>HTML and CSS</li>
+          <li>Computer Fundamentals</li>
+          <li>Artificial Intelligence</li>
+        </ul>
+      </section>
+    </article>
+
+    <aside id="news">
+      <h2>Latest News</h2>
+      <p>
+        Admissions and academic activities are conducted
+        according to the university schedule.
+      </p>
+    </aside>
+
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2026 Invertis University ·
+      <a href="https://www.invertisuniversity.ac.in/"
+         target="_blank"
+         rel="noopener noreferrer">
+        Official Website
+      </a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
