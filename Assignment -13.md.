@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="My College &amp; My Course – HTML &amp; CSS course assignment">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My College &amp; My Course</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>My College &amp; My Course</h1>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>College Details</h2>
+      <ul>
+        <li>Name: Invertis University</li>
+        <li>Location: Bareilly, Uttar Pradesh</li>
+        <li>Course: BCA Artificial Intelligence</li>
+        <li>Facilities:
+          <ul>
+            <li>Computer Labs</li>
+            <li>Library</li>
+            <li>Sports Ground</li>
+            <li>Wi-Fi Campus</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Course: BCA Artificial Intelligence</h2>
+
+      <h3>Semester Roadmap (ordered list)</h3>
+      <ol>
+        <li>Semester 1 – Programming in Java, HTML, Mathematics</li>
+        <li>Semester 2 – Programming, Data Structures, Computer Fundamentals</li>
+        <li>Semester 3 – Artificial Intelligence, Database Management</li>
+        <li>Semester 4 – Machine Learning, Web Development</li>
+      </ol>
+
+      <h3>Key Terms (description list)</h3>
+      <dl>
+        <dt>CGPA</dt>
+        <dd>Cumulative Grade Point Average, used to measure academic performance.</dd>
+
+        <dt>Elective</dt>
+        <dd>A subject chosen by the student from a given list of subjects.</dd>
+
+        <dt>Internship</dt>
+        <dd>Practical industry training to gain professional experience.</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Why I chose this course</h2>
+      <ol type="a">
+        <li>Interest in technology and programming.</li>
+        <li>Great career opportunities in the IT industry.</li>
+        <li>Passion for Artificial Intelligence and software development.</li>
+      </ol>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
